@@ -42,6 +42,9 @@
         android:layout_centerHorizontal="true"
         android:text="remember my login informations"
         android:layout_marginTop="10dp"
+        android:layout_below="@id/enter_pwd"
+        android:layout_toEndOf="@id/next_button"
+        android:layout_alignParentRight="true"
         android:textAppearance="?android:textAppearanceMedium" />
 
 </RelativeLayout>
