@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Act4.1</string>
+    <string name="enter_name">entrer nom</string>
+    <string name="enter_pwd">entrer mot de passe</string>
+    <string name="login"> login </string>
+    <string name="notify_me"> notifaction </string>
+</resources>
