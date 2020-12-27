@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
     <EditText
         android:id="@+id/enter_name"
         android:ems="10"
@@ -32,19 +29,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        android:layout_alignLeft="@id/enter_pwd"
         android:layout_alignStart="@id/enter_pwd"
         android:layout_below="@id/enter_pwd"/>
     <CheckBox
         android:id="@+id/notify_me_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="remember my login informations"
+        android:text="@string/remember_my_login_informations"
         android:layout_marginTop="10dp"
         android:layout_below="@id/enter_pwd"
         android:layout_toEndOf="@id/next_button"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:textAppearance="?android:textAppearanceMedium" />
-
 </RelativeLayout>

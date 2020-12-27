@@ -4,4 +4,5 @@
     <string name="enter_pwd">entrer mot de passe</string>
     <string name="login"> login </string>
     <string name="notify_me"> notifaction </string>
+    <string name="remember_my_login_informations">remember my login informations</string>
 </resources>
